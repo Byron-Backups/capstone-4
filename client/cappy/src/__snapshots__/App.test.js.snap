@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="repos-container"
+  >
+    <div
+      class="repos"
+    >
+      <h3>
+        whisper.cpp-cli
+      </h3>
+      <p>
+        Packages whisper.cpp into pre-built, pip-installable wheels, for macOS and Linux.
+      </p>
+      <p>
+        Created: 27 Apr 2024
+      </p>
+      <p>
+        Last Commit: 30 Apr 2024
+      </p>
+      <ul>
+        <li>
+          Bump version to v0.0.3
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
