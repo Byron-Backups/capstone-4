@@ -1,0 +1,2022 @@
+[
+  {
+    "repo": "whisper.cpp-cli",
+    "commits": [
+      {
+        "sha": "c99055cd840dcb20f9b03c2e8941629d9d890111",
+        "node_id": "C_kwDOL0HAqtoAKGM5OTA1NWNkODQwZGNiMjBmOWIwM2MyZTg5NDE2MjlkOWQ4OTAxMTE",
+        "commit": {
+          "author": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-05-01T05:03:54Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-01T05:03:54Z"
+          },
+          "message": "Bump version to v0.0.3",
+          "tree": {
+            "sha": "4f0f9d40814c37a3e18c626a042fdbbfa833fef6",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/trees/4f0f9d40814c37a3e18c626a042fdbbfa833fef6"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/commits/c99055cd840dcb20f9b03c2e8941629d9d890111",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMc06CRC1aQ7uu5UhlAAATMMQAAtlSaxnx+FPOSyJjE+cPK09\nuBI7w8aBak/IvTPT/iM3wck+GKp4bHHXiLwroZS8baf2fcq5vkjOVnsmF5kTjVak\nhwH4OBkTw2SUbI3iV3qIP1bB+XBoXLSQdWjyi2lx1OwfAi8r3HEZvf918Ds82z9V\n8XcPyRNuERinR6xNFYn9n4r6AtSPel253N79HPb/HMJQKBwRzWzOSmkLH8O3S6Hi\nrw0nJG1ld5dJ2GP0wxCK/8Sw+mYbvGFnCxHmi4t3OIJ0yxdQuFbpU3u0D1mHDJTH\nNKWKQ7m5YGlRe5o9fFpuAAYtclQSGbIRL3kLmZ2E3vphBC8axH/4h4tiP3GqdYlL\nNOW3mf//YB86ofHmX1gPWM8g1nt2RK+reQ8vFzBhn+RwR1Bm4WBDlmkaP+0vceUD\n3PS8m1rK+nDpJLNczjd5ynmzLZM5AxMDSu+NSQFIcqU5GkFNohE5tlEUb8mw8KSg\nwWol1rKLMx1vuvjmSQG5VPaez3SQpZ7OgOx//XUiv8nc1wxLJ/wiLLy43OnNRkI4\n7IcHLeUibPEfJlN7+DJG35Qr8v88FBAGLOoMh/pMaO1AH5ZrrjO4Ql2MQkyt3eb5\nuj0yPuaPT6tuyWUP6qBOdPRkZ0a11ieM8T2bpJFioPArLFUSZKvhd1JmcHVPu3c5\n9fLqOCl31gsHltLs4prV\n=ZtI3\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 4f0f9d40814c37a3e18c626a042fdbbfa833fef6\nparent de815567addd298e5e9fa5552cad69f271fa6c50\nauthor Charlie Marsh <charlie.r.marsh@gmail.com> 1714539834 -0700\ncommitter GitHub <noreply@github.com> 1714539834 -0700\n\nBump version to v0.0.3"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/c99055cd840dcb20f9b03c2e8941629d9d890111",
+        "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/c99055cd840dcb20f9b03c2e8941629d9d890111",
+        "comments_url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/c99055cd840dcb20f9b03c2e8941629d9d890111/comments",
+        "author": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "de815567addd298e5e9fa5552cad69f271fa6c50",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/de815567addd298e5e9fa5552cad69f271fa6c50",
+            "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/de815567addd298e5e9fa5552cad69f271fa6c50"
+          }
+        ]
+      },
+      {
+        "sha": "de815567addd298e5e9fa5552cad69f271fa6c50",
+        "node_id": "C_kwDOL0HAqtoAKGRlODE1NTY3YWRkZDI5OGU1ZTlmYTU1NTJjYWQ2OWYyNzFmYTZjNTA",
+        "commit": {
+          "author": {
+            "name": "Henry Schreiner",
+            "email": "HenrySchreinerIII@gmail.com",
+            "date": "2024-05-01T04:53:25Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-01T04:53:25Z"
+          },
+          "message": "feat: use scikit-build-core (#13)\n\nThis switches the build system to scikit-build-core and adds Windows\r\nwheels (close #9 and close #12). It drops s390x because it's missing\r\nfrom upstream and that causes it to be called x86:\r\nhttps://github.com/ggerganov/whisper.cpp/blob/8fac6455ffeb0a0950a84e790ddb74f7290d33c4/CMakeLists.txt#L473-L474\r\n- the logic there should be changed to only add x86 specific flags if\r\nx86 is detected, not to filter all known cases that are not x86. A very\r\nrecent version of CMake is required due to EXCLUDE_FROM_ALL, but\r\nscikit-build-core handles requesting it if missing for you.\r\n\r\nTested locally with `pipx run build --installer=uv`. Checked contents\r\nwith `unzip -l dist/*.whl`. Validated pyproject.toml with `pipx run\r\nvalidate-pyproject-schema-store[all] pyproject.toml -v`. Checked the\r\nwheel with `pipx run --spec delocate delocate-listdeps\r\ndist/whisper_cpp_cli-0.0.2-py3-none-macosx_14_0_x86_64.whl` (I had\r\n`BUILD_SHARED_LIBS` set to `ON` for a bit, somehow thinking that would\r\nbuild static libs when enabled...).\r\n\r\nSince there's no pre-commit file, formatted CMakeLists.txt manually with\r\n`pipx run cmake-format -I CMakeLists.txt`.\r\n\r\nAdding the other features should just be setting cmake flags; core-ml\r\nfor example can be enabled by passing `-Ccmake.define.WHISPER_COREML=1`.\r\nSimilarly for WHISPER_CUDA, etc.\r\n\r\nSigned-off-by: Henry Schreiner <henryschreineriii@gmail.com>",
+          "tree": {
+            "sha": "7be0c7431292c4f5202fd171bc34591393c38039",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/trees/7be0c7431292c4f5202fd171bc34591393c38039"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/commits/de815567addd298e5e9fa5552cad69f271fa6c50",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMcrFCRC1aQ7uu5UhlAAA1KYQAFIxgnTINxzUYwDy9jr3RZg7\nJWtBGtbQIxktRdimFPIExAc3NooN33aEjSvvijWhO1p7ipCJdlDm/tkNYN7NLimL\nGa2UWn1wTBXXcca/z8wayKWsvlxab+ynRVgxgsEBp4GEntfZNcmYEXXuIH8C9VrU\nNdmzoNbB1yMWmu7OcQ0qBBPv25CXzfvGjz8GYMdbF99PE3FCcicFYwXTJT6e4F4K\nBZ/urcDCMP5nosmVmra+o38XVPGARKbsxkMCo8fMCabNsF9Evt37vOGXVLKjrHSz\n42dHlp1wY2HXafjrrEg4my5bM8ahQgcmp/zyIuxgEUEwcIuukGNsJ77KhCOzJeCn\n/iQF8J9g5b7wjKMWVE4+os79eP0559uHgI1W0ry29B/vdZUsibrWqRyVDZ7zyQev\n6jrByjacle5hZgfKipEuTVwNJmXQg863tQJsHwBohmba6Rr3PdN2Yz397ouLni/N\naSOEw2CdIzp5eckDr/2zbNs55KfDWcDtloYSgpmxXoQPZC9QEkDGEFmznSUP3ftx\nJhD3zbeMWYvwjbnX7iMzIws2ENvZtFRDawcVMxCL5/t//KJ4RDofyG5XEEd8ncKk\nT6wci+pLK6Bm5zr4q259K9/KbHnKkR/fgydQWI4NUhoHUMRXKKMwjfD+Dl7qZDQu\nZCQETFfbJsBsF/qBin61\n=r6TD\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 7be0c7431292c4f5202fd171bc34591393c38039\nparent 35b8b6115e5b4c25b6357c857daf9e7c2a230eed\nauthor Henry Schreiner <HenrySchreinerIII@gmail.com> 1714539205 -0400\ncommitter GitHub <noreply@github.com> 1714539205 -0700\n\nfeat: use scikit-build-core (#13)\n\nThis switches the build system to scikit-build-core and adds Windows\r\nwheels (close #9 and close #12). It drops s390x because it's missing\r\nfrom upstream and that causes it to be called x86:\r\nhttps://github.com/ggerganov/whisper.cpp/blob/8fac6455ffeb0a0950a84e790ddb74f7290d33c4/CMakeLists.txt#L473-L474\r\n- the logic there should be changed to only add x86 specific flags if\r\nx86 is detected, not to filter all known cases that are not x86. A very\r\nrecent version of CMake is required due to EXCLUDE_FROM_ALL, but\r\nscikit-build-core handles requesting it if missing for you.\r\n\r\nTested locally with `pipx run build --installer=uv`. Checked contents\r\nwith `unzip -l dist/*.whl`. Validated pyproject.toml with `pipx run\r\nvalidate-pyproject-schema-store[all] pyproject.toml -v`. Checked the\r\nwheel with `pipx run --spec delocate delocate-listdeps\r\ndist/whisper_cpp_cli-0.0.2-py3-none-macosx_14_0_x86_64.whl` (I had\r\n`BUILD_SHARED_LIBS` set to `ON` for a bit, somehow thinking that would\r\nbuild static libs when enabled...).\r\n\r\nSince there's no pre-commit file, formatted CMakeLists.txt manually with\r\n`pipx run cmake-format -I CMakeLists.txt`.\r\n\r\nAdding the other features should just be setting cmake flags; core-ml\r\nfor example can be enabled by passing `-Ccmake.define.WHISPER_COREML=1`.\r\nSimilarly for WHISPER_CUDA, etc.\r\n\r\nSigned-off-by: Henry Schreiner <henryschreineriii@gmail.com>"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/de815567addd298e5e9fa5552cad69f271fa6c50",
+        "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/de815567addd298e5e9fa5552cad69f271fa6c50",
+        "comments_url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/de815567addd298e5e9fa5552cad69f271fa6c50/comments",
+        "author": {
+          "login": "henryiii",
+          "id": 4616906,
+          "node_id": "MDQ6VXNlcjQ2MTY5MDY=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/4616906?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/henryiii",
+          "html_url": "https://github.com/henryiii",
+          "followers_url": "https://api.github.com/users/henryiii/followers",
+          "following_url": "https://api.github.com/users/henryiii/following{/other_user}",
+          "gists_url": "https://api.github.com/users/henryiii/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/henryiii/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/henryiii/subscriptions",
+          "organizations_url": "https://api.github.com/users/henryiii/orgs",
+          "repos_url": "https://api.github.com/users/henryiii/repos",
+          "events_url": "https://api.github.com/users/henryiii/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/henryiii/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "35b8b6115e5b4c25b6357c857daf9e7c2a230eed",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/35b8b6115e5b4c25b6357c857daf9e7c2a230eed",
+            "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/35b8b6115e5b4c25b6357c857daf9e7c2a230eed"
+          }
+        ]
+      },
+      {
+        "sha": "35b8b6115e5b4c25b6357c857daf9e7c2a230eed",
+        "node_id": "C_kwDOL0HAqtoAKDM1YjhiNjExNWU1YjRjMjViNjM1N2M4NTdkYWY5ZTdjMmEyMzBlZWQ",
+        "commit": {
+          "author": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-04-29T00:20:24Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-29T00:20:24Z"
+          },
+          "message": "Use linux rather than manylinux or musllinux in tag (#11)\n\ncibuildwheel will audit the wheel and add the appropriate Linux tags.",
+          "tree": {
+            "sha": "df4135c5baaf27f0aecf20f7cc5d5704544943db",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/trees/df4135c5baaf27f0aecf20f7cc5d5704544943db"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/commits/35b8b6115e5b4c25b6357c857daf9e7c2a230eed",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmLufICRC1aQ7uu5UhlAAAa2oQACacqk89IFFACOGH6qOw+R+I\n5JzvaklejUD9SPFyV92u1rhcA6OTYxapolLT9QhPZTuO86Z7fcqN/GdjCcJRZirK\nFQXS5DPwVidMPOsEL7i/lNYWryLATrnd5EfkohAchhJF4nq4zxD0ofrf5iTSizXe\nM8qppNJxU5i8kqodFD6GLbFk3XMpT/9fDDB57SOxhX9YF/x7RHsOGSWMdoyZ5stM\nzn9PY8OxHHViSLvDQu7KcwdQhfEa0Fgv8ZgmeQE+/OdKUdilCCI2f/1ky04C3DW2\nkRQ5KGiEThW2t53cAghM91WYJq75taAVhrh+J+kFidej9s08XLUSqayNiwd87glw\ngOrLxsA5r5YwOA2tCBnrvBDX2wyY1XuiHlJAGdY96qTENGvkbYCpj6aoQRWEzJiQ\nKD6JUJ9hbdU8L25leH23n8AXd6iHBNdpwV9p1X0Z60fOWPPhF39Rj4g0sQ1aaxLD\nhbkwKRqiSnUekfWI0Zg5QmacxbKJOiZol394h+llvu7nKf81nIvTqrJrzsJcVY5F\nO/7tlnH8dH8fmY4FsBBuj9vsjQ7/fa7cBwKsV6Tw4kG8pSC9nsXkjT8UfiMXYUjW\nObWhgUsj1/IVm56cYIcRth7S/MkXaw/48gdnrGyPy7O3Sts23EiTNIMEFUSUR59N\nS+OSnXNIdVXUdrRzGY49\n=CzLj\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree df4135c5baaf27f0aecf20f7cc5d5704544943db\nparent c2ef7fd8717d49de18436ce849aa0914ddc42c10\nauthor Charlie Marsh <charlie.r.marsh@gmail.com> 1714350024 -0400\ncommitter GitHub <noreply@github.com> 1714350024 -0400\n\nUse linux rather than manylinux or musllinux in tag (#11)\n\ncibuildwheel will audit the wheel and add the appropriate Linux tags."
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/35b8b6115e5b4c25b6357c857daf9e7c2a230eed",
+        "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/35b8b6115e5b4c25b6357c857daf9e7c2a230eed",
+        "comments_url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/35b8b6115e5b4c25b6357c857daf9e7c2a230eed/comments",
+        "author": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "c2ef7fd8717d49de18436ce849aa0914ddc42c10",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/c2ef7fd8717d49de18436ce849aa0914ddc42c10",
+            "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/c2ef7fd8717d49de18436ce849aa0914ddc42c10"
+          }
+        ]
+      },
+      {
+        "sha": "c2ef7fd8717d49de18436ce849aa0914ddc42c10",
+        "node_id": "C_kwDOL0HAqtoAKGMyZWY3ZmQ4NzE3ZDQ5ZGUxODQzNmNlODQ5YWEwOTE0ZGRjNDJjMTA",
+        "commit": {
+          "author": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-04-29T00:13:46Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-29T00:13:46Z"
+          },
+          "message": "Move some `cibuildwheel` settings into `pyproject.toml` (#10)",
+          "tree": {
+            "sha": "93d3340bc1636c3bdf4cf522436e6921f9188216",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/trees/93d3340bc1636c3bdf4cf522436e6921f9188216"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/commits/c2ef7fd8717d49de18436ce849aa0914ddc42c10",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmLuY6CRC1aQ7uu5UhlAAAhMUQADLRb2SQEIMeL0kKOlokCjvj\n3RWipToGR5fh1H8wQGCh3Fbe2qMsJCJ+gP30MHs+5Z7/3xBNQuycT9AB32k+gJEX\nJ15HN+YB6sJ/76MtYRyjJCSzoOaZEUO4xt3G4Y3VTgLTSb14NJ09bEJn5CxahdMo\nnxC/CG075gMYYYsNajFsSX13TguBK4ja5icHrzFcjxLOis+AbS3Z2yjYCDm1PRiW\ntVAzHhMucpAdszEoLTjPvEHgpTh69ES7BtJgouewvAALdlGa+v+2NhGLIYyG8H15\nGJXiHkSrm2aKT4WGtIM3fBE/KR1EZLFV0YUTs2YBpD6oBLfh1MFx2iGoWKwaRXMB\nCJuWDKDXDsmToWN9cOH8twwCr98KOJpcR1ZzesdMIdfsdtEH9im5WYh/WInlmlSx\nEsbkhQa7FaT0tFYybomLR1LN2ej4f94YZUtVmKBGYEhKq+OFRCu3Z1mDNRV0sRwc\nTdpMBhqatwh4Ks1lLY49Cnicp5KNilxlSD2kEFdkPM4UYZ1VaFK+s5+Lniu34Xyl\nRY7WD7GfLQ8kbeLLQ1J9OGLbG1uSTuNW6o/4BUIdJgJj3m5xznn6gYI4m5v+2aCl\nlh1DHoOiycn/2Y1frnc0ZyQKF6TCnFrxwcwK+R29wfL4OfMbNTjr7R5siH4vV6Ou\n2g1c/ABP86XGZy12+70p\n=uyK7\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 93d3340bc1636c3bdf4cf522436e6921f9188216\nparent 4ae8833c21e20be8e7200a66a9d63fa482d2aa63\nauthor Charlie Marsh <charlie.r.marsh@gmail.com> 1714349626 -0400\ncommitter GitHub <noreply@github.com> 1714349626 -0400\n\nMove some `cibuildwheel` settings into `pyproject.toml` (#10)\n\n"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/c2ef7fd8717d49de18436ce849aa0914ddc42c10",
+        "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/c2ef7fd8717d49de18436ce849aa0914ddc42c10",
+        "comments_url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/c2ef7fd8717d49de18436ce849aa0914ddc42c10/comments",
+        "author": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "4ae8833c21e20be8e7200a66a9d63fa482d2aa63",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/4ae8833c21e20be8e7200a66a9d63fa482d2aa63",
+            "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/4ae8833c21e20be8e7200a66a9d63fa482d2aa63"
+          }
+        ]
+      },
+      {
+        "sha": "4ae8833c21e20be8e7200a66a9d63fa482d2aa63",
+        "node_id": "C_kwDOL0HAqtoAKDRhZTg4MzNjMjFlMjBiZThlNzIwMGE2NmE5ZDYzZmE0ODJkMmFhNjM",
+        "commit": {
+          "author": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-04-27T23:09:58Z"
+          },
+          "committer": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-04-27T23:09:58Z"
+          },
+          "message": "Bump version to 0.0.2",
+          "tree": {
+            "sha": "ab9153be0e249dd99e1b3a8c2ca2c01627b9c5a8",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/trees/ab9153be0e249dd99e1b3a8c2ca2c01627b9c5a8"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/git/commits/4ae8833c21e20be8e7200a66a9d63fa482d2aa63",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/4ae8833c21e20be8e7200a66a9d63fa482d2aa63",
+        "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/4ae8833c21e20be8e7200a66a9d63fa482d2aa63",
+        "comments_url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/4ae8833c21e20be8e7200a66a9d63fa482d2aa63/comments",
+        "author": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "b38360e46be6257cbe9ab81b20460f8d4127c6b1",
+            "url": "https://api.github.com/repos/charliermarsh/whisper.cpp-cli/commits/b38360e46be6257cbe9ab81b20460f8d4127c6b1",
+            "html_url": "https://github.com/charliermarsh/whisper.cpp-cli/commit/b38360e46be6257cbe9ab81b20460f8d4127c6b1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "anthropic-sdk-python",
+    "commits": [
+      {
+        "sha": "6cccfa7e76470f7ff3fd4e04889e904d11aa0bf4",
+        "node_id": "C_kwDOL_0mGtoAKDZjY2NmYTdlNzY0NzBmN2ZmM2ZkNGUwNDg4OWU5MDRkMTFhYTBiZjQ",
+        "commit": {
+          "author": {
+            "name": "Stainless Bot",
+            "email": "107565488+stainless-bot@users.noreply.github.com",
+            "date": "2024-05-21T16:54:14Z"
+          },
+          "committer": {
+            "name": "stainless-app[bot]",
+            "email": "142633134+stainless-app[bot]@users.noreply.github.com",
+            "date": "2024-05-21T17:05:00Z"
+          },
+          "message": "release: 0.26.1",
+          "tree": {
+            "sha": "a8f121bc457f0c1a86538cea1346db4f69bc4331",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/trees/a8f121bc457f0c1a86538cea1346db4f69bc4331"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/commits/6cccfa7e76470f7ff3fd4e04889e904d11aa0bf4",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/6cccfa7e76470f7ff3fd4e04889e904d11aa0bf4",
+        "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/6cccfa7e76470f7ff3fd4e04889e904d11aa0bf4",
+        "comments_url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/6cccfa7e76470f7ff3fd4e04889e904d11aa0bf4/comments",
+        "author": {
+          "login": "stainless-bot",
+          "id": 107565488,
+          "node_id": "U_kgDOBmlRsA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/107565488?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-bot",
+          "html_url": "https://github.com/stainless-bot",
+          "followers_url": "https://api.github.com/users/stainless-bot/followers",
+          "following_url": "https://api.github.com/users/stainless-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-bot/orgs",
+          "repos_url": "https://api.github.com/users/stainless-bot/repos",
+          "events_url": "https://api.github.com/users/stainless-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "stainless-app[bot]",
+          "id": 142633134,
+          "node_id": "BOT_kgDOCIBorg",
+          "avatar_url": "https://avatars.githubusercontent.com/in/378072?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-app%5Bbot%5D",
+          "html_url": "https://github.com/apps/stainless-app",
+          "followers_url": "https://api.github.com/users/stainless-app%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/stainless-app%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-app%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-app%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-app%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-app%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/stainless-app%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/stainless-app%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-app%5Bbot%5D/received_events",
+          "type": "Bot",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "4efe19ce565521c584bf7af6ed99830a3c2bb426",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/4efe19ce565521c584bf7af6ed99830a3c2bb426",
+            "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/4efe19ce565521c584bf7af6ed99830a3c2bb426"
+          }
+        ]
+      },
+      {
+        "sha": "4efe19ce565521c584bf7af6ed99830a3c2bb426",
+        "node_id": "C_kwDOL_0mGtoAKDRlZmUxOWNlNTY1NTIxYzU4NGJmN2FmNmVkOTk4MzBhM2MyYmI0MjY",
+        "commit": {
+          "author": {
+            "name": "Stainless Bot",
+            "email": "107565488+stainless-bot@users.noreply.github.com",
+            "date": "2024-05-21T16:53:48Z"
+          },
+          "committer": {
+            "name": "stainless-app[bot]",
+            "email": "142633134+stainless-app[bot]@users.noreply.github.com",
+            "date": "2024-05-21T17:05:00Z"
+          },
+          "message": "chore(docs): fix typo (#511)",
+          "tree": {
+            "sha": "16caa5ad210d78c4af4e75f0e64bcecf5f6c09a6",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/trees/16caa5ad210d78c4af4e75f0e64bcecf5f6c09a6"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/commits/4efe19ce565521c584bf7af6ed99830a3c2bb426",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/4efe19ce565521c584bf7af6ed99830a3c2bb426",
+        "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/4efe19ce565521c584bf7af6ed99830a3c2bb426",
+        "comments_url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/4efe19ce565521c584bf7af6ed99830a3c2bb426/comments",
+        "author": {
+          "login": "stainless-bot",
+          "id": 107565488,
+          "node_id": "U_kgDOBmlRsA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/107565488?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-bot",
+          "html_url": "https://github.com/stainless-bot",
+          "followers_url": "https://api.github.com/users/stainless-bot/followers",
+          "following_url": "https://api.github.com/users/stainless-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-bot/orgs",
+          "repos_url": "https://api.github.com/users/stainless-bot/repos",
+          "events_url": "https://api.github.com/users/stainless-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "stainless-app[bot]",
+          "id": 142633134,
+          "node_id": "BOT_kgDOCIBorg",
+          "avatar_url": "https://avatars.githubusercontent.com/in/378072?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-app%5Bbot%5D",
+          "html_url": "https://github.com/apps/stainless-app",
+          "followers_url": "https://api.github.com/users/stainless-app%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/stainless-app%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-app%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-app%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-app%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-app%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/stainless-app%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/stainless-app%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-app%5Bbot%5D/received_events",
+          "type": "Bot",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "320acad3e19517a3b615b42637d54978dd10f4e1",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/320acad3e19517a3b615b42637d54978dd10f4e1",
+            "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/320acad3e19517a3b615b42637d54978dd10f4e1"
+          }
+        ]
+      },
+      {
+        "sha": "320acad3e19517a3b615b42637d54978dd10f4e1",
+        "node_id": "C_kwDOL_0mGtoAKDMyMGFjYWQzZTE5NTE3YTNiNjE1YjQyNjM3ZDU0OTc4ZGQxMGY0ZTE",
+        "commit": {
+          "author": {
+            "name": "Robert Craigie",
+            "email": "robert@craigie.dev",
+            "date": "2024-05-21T16:24:04Z"
+          },
+          "committer": {
+            "name": "stainless-app[bot]",
+            "email": "142633134+stainless-app[bot]@users.noreply.github.com",
+            "date": "2024-05-21T17:05:00Z"
+          },
+          "message": "chore(tools): rely on pydantic's JSON parser instead of pydantic (#510)",
+          "tree": {
+            "sha": "90904c6e4d92580510617481c76668b01d507c00",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/trees/90904c6e4d92580510617481c76668b01d507c00"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/commits/320acad3e19517a3b615b42637d54978dd10f4e1",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/320acad3e19517a3b615b42637d54978dd10f4e1",
+        "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/320acad3e19517a3b615b42637d54978dd10f4e1",
+        "comments_url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/320acad3e19517a3b615b42637d54978dd10f4e1/comments",
+        "author": {
+          "login": "RobertCraigie",
+          "id": 23125036,
+          "node_id": "MDQ6VXNlcjIzMTI1MDM2",
+          "avatar_url": "https://avatars.githubusercontent.com/u/23125036?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/RobertCraigie",
+          "html_url": "https://github.com/RobertCraigie",
+          "followers_url": "https://api.github.com/users/RobertCraigie/followers",
+          "following_url": "https://api.github.com/users/RobertCraigie/following{/other_user}",
+          "gists_url": "https://api.github.com/users/RobertCraigie/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/RobertCraigie/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/RobertCraigie/subscriptions",
+          "organizations_url": "https://api.github.com/users/RobertCraigie/orgs",
+          "repos_url": "https://api.github.com/users/RobertCraigie/repos",
+          "events_url": "https://api.github.com/users/RobertCraigie/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/RobertCraigie/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "stainless-app[bot]",
+          "id": 142633134,
+          "node_id": "BOT_kgDOCIBorg",
+          "avatar_url": "https://avatars.githubusercontent.com/in/378072?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-app%5Bbot%5D",
+          "html_url": "https://github.com/apps/stainless-app",
+          "followers_url": "https://api.github.com/users/stainless-app%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/stainless-app%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-app%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-app%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-app%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-app%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/stainless-app%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/stainless-app%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-app%5Bbot%5D/received_events",
+          "type": "Bot",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "246a2978694b584429d4bbd5b44245ff8eac2ac2",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/246a2978694b584429d4bbd5b44245ff8eac2ac2",
+            "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/246a2978694b584429d4bbd5b44245ff8eac2ac2"
+          }
+        ]
+      },
+      {
+        "sha": "246a2978694b584429d4bbd5b44245ff8eac2ac2",
+        "node_id": "C_kwDOL_0mGtoAKDI0NmEyOTc4Njk0YjU4NDQyOWQ0YmJkNWI0NDI0NWZmOGVhYzJhYzI",
+        "commit": {
+          "author": {
+            "name": "Stainless Bot",
+            "email": "107565488+stainless-bot@users.noreply.github.com",
+            "date": "2024-05-16T15:10:55Z"
+          },
+          "committer": {
+            "name": "Stainless Bot",
+            "email": "107565488+stainless-bot@users.noreply.github.com",
+            "date": "2024-05-16T15:22:40Z"
+          },
+          "message": "release: 0.26.0",
+          "tree": {
+            "sha": "786b63fc59dc386f611fcaa919c047fc1d72e1b9",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/trees/786b63fc59dc386f611fcaa919c047fc1d72e1b9"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/commits/246a2978694b584429d4bbd5b44245ff8eac2ac2",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/246a2978694b584429d4bbd5b44245ff8eac2ac2",
+        "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/246a2978694b584429d4bbd5b44245ff8eac2ac2",
+        "comments_url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/246a2978694b584429d4bbd5b44245ff8eac2ac2/comments",
+        "author": {
+          "login": "stainless-bot",
+          "id": 107565488,
+          "node_id": "U_kgDOBmlRsA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/107565488?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-bot",
+          "html_url": "https://github.com/stainless-bot",
+          "followers_url": "https://api.github.com/users/stainless-bot/followers",
+          "following_url": "https://api.github.com/users/stainless-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-bot/orgs",
+          "repos_url": "https://api.github.com/users/stainless-bot/repos",
+          "events_url": "https://api.github.com/users/stainless-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "stainless-bot",
+          "id": 107565488,
+          "node_id": "U_kgDOBmlRsA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/107565488?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-bot",
+          "html_url": "https://github.com/stainless-bot",
+          "followers_url": "https://api.github.com/users/stainless-bot/followers",
+          "following_url": "https://api.github.com/users/stainless-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-bot/orgs",
+          "repos_url": "https://api.github.com/users/stainless-bot/repos",
+          "events_url": "https://api.github.com/users/stainless-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "e0c78af8050017a30ec5cdaa2ce6b883f56d782f",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/e0c78af8050017a30ec5cdaa2ce6b883f56d782f",
+            "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/e0c78af8050017a30ec5cdaa2ce6b883f56d782f"
+          }
+        ]
+      },
+      {
+        "sha": "e0c78af8050017a30ec5cdaa2ce6b883f56d782f",
+        "node_id": "C_kwDOL_0mGtoAKGUwYzc4YWY4MDUwMDE3YTMwZWM1Y2RhYTJjZTZiODgzZjU2ZDc4MmY",
+        "commit": {
+          "author": {
+            "name": "Stainless Bot",
+            "email": "107565488+stainless-bot@users.noreply.github.com",
+            "date": "2024-05-16T15:03:38Z"
+          },
+          "committer": {
+            "name": "Stainless Bot",
+            "email": "107565488+stainless-bot@users.noreply.github.com",
+            "date": "2024-05-16T15:22:40Z"
+          },
+          "message": "feat(api): add `tool_choice` param, image block params inside `tool_result.content`, and streaming for `tool_use` blocks (#502)",
+          "tree": {
+            "sha": "1fd1d31d064c2a92bd472b863593be2e29ad4a43",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/trees/1fd1d31d064c2a92bd472b863593be2e29ad4a43"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/git/commits/e0c78af8050017a30ec5cdaa2ce6b883f56d782f",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/e0c78af8050017a30ec5cdaa2ce6b883f56d782f",
+        "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/e0c78af8050017a30ec5cdaa2ce6b883f56d782f",
+        "comments_url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/e0c78af8050017a30ec5cdaa2ce6b883f56d782f/comments",
+        "author": {
+          "login": "stainless-bot",
+          "id": 107565488,
+          "node_id": "U_kgDOBmlRsA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/107565488?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-bot",
+          "html_url": "https://github.com/stainless-bot",
+          "followers_url": "https://api.github.com/users/stainless-bot/followers",
+          "following_url": "https://api.github.com/users/stainless-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-bot/orgs",
+          "repos_url": "https://api.github.com/users/stainless-bot/repos",
+          "events_url": "https://api.github.com/users/stainless-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "stainless-bot",
+          "id": 107565488,
+          "node_id": "U_kgDOBmlRsA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/107565488?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/stainless-bot",
+          "html_url": "https://github.com/stainless-bot",
+          "followers_url": "https://api.github.com/users/stainless-bot/followers",
+          "following_url": "https://api.github.com/users/stainless-bot/following{/other_user}",
+          "gists_url": "https://api.github.com/users/stainless-bot/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/stainless-bot/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/stainless-bot/subscriptions",
+          "organizations_url": "https://api.github.com/users/stainless-bot/orgs",
+          "repos_url": "https://api.github.com/users/stainless-bot/repos",
+          "events_url": "https://api.github.com/users/stainless-bot/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/stainless-bot/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "5d896a2a462b5be2c767fcea1bf942572cdae9e1",
+            "url": "https://api.github.com/repos/charliermarsh/anthropic-sdk-python/commits/5d896a2a462b5be2c767fcea1bf942572cdae9e1",
+            "html_url": "https://github.com/charliermarsh/anthropic-sdk-python/commit/5d896a2a462b5be2c767fcea1bf942572cdae9e1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "langchain",
+    "commits": [
+      {
+        "sha": "d7e12750df1b696793097ca049dccbebf1fc3f3c",
+        "node_id": "C_kwDOL1GQZdoAKGQ3ZTEyNzUwZGYxYjY5Njc5MzA5N2NhMDQ5ZGNjYmViZjFmYzNmM2M",
+        "commit": {
+          "author": {
+            "name": "Alexander Dicke",
+            "email": "119596967+AIexanderDicke@users.noreply.github.com",
+            "date": "2024-04-30T03:09:55Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-30T03:09:55Z"
+          },
+          "message": "community[patch]: allows using `text-generation-inference` /generate route with `HuggingFaceEndpoint` (#20100)\n\n- **Description:** allows to use the /generate route of\r\n`text-generation-inference` with the `HuggingFaceEndpoint`",
+          "tree": {
+            "sha": "de6303224f6d2ebc5461732febc8da780ecdbc4c",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/git/trees/de6303224f6d2ebc5461732febc8da780ecdbc4c"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/langchain/git/commits/d7e12750df1b696793097ca049dccbebf1fc3f3c",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMGEDCRC1aQ7uu5UhlAAAC5QQADEXrJpsHkrLUJYsHwOlmA5A\nb4ul6K5feybnpZ29Uztp3eeIFsSyw0bwNU8FX6A1pHN28thIYFrxXrwDfRkdNTAx\nk1XhD0O+bRVRnWeDCvnc5rVf42UDloTOGbRYel8B7Xd5IGSDOw9epbEn+W21cDwF\nz+wC2TGtQyBKk0WdNG/nKIlWgA5Ycqt4N3/yqrVit+2CD5cVVweheycu2+M9VUTZ\nNM4wm0xA+82eIzhNIYZH/YgKR6n1xV/u7jSyjV7UwXlfIbO3SoYrf3XiyQ1KJ8j0\nZRRGQnUDcAKw4Kd99dmfmWuEuqN6JyWwb5GVfJ6M9seHlbW/d/aLk2K875L+2rcV\nFZuVBiCb+C7K/Kbe2aP+SAUPVauFIwgTybOzeJBIW6G4jfjw6wLkEcBOaE7P/UIA\n4yWtTzUndzVatmZ9uxBz2ZrgEXXeSkICy9OYUVC3jvyDBjZTs4l+hiwlpA1Uxqdm\n7mYxg9Y5eFPhdh/u+jNQx8FVumm5xwHYKvfjyjklxTfZVWp70C1tZ99ipArmY90i\nfAuEsCF8z89tyle/3NdSo+WNDmsdgxZAcVwQ5VlJfTPoNKr1agi59I7cIl5Mq/XA\nNSiQ5Mgjx/YgCabbIKCDqnslmzyBSR2vSuQaVc3W9cH0ZJRoiRPg2luCR7WY/nga\ngMW7/Nn7OyukQxVBCsEh\n=csZd\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree de6303224f6d2ebc5461732febc8da780ecdbc4c\nparent ea43c669f28f4564cc23cb9cc1356e363508e69d\nauthor Alexander Dicke <119596967+AIexanderDicke@users.noreply.github.com> 1714446595 +0200\ncommitter GitHub <noreply@github.com> 1714446595 -0400\n\ncommunity[patch]: allows using `text-generation-inference` /generate route with `HuggingFaceEndpoint` (#20100)\n\n- **Description:** allows to use the /generate route of\r\n`text-generation-inference` with the `HuggingFaceEndpoint`"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/langchain/commits/d7e12750df1b696793097ca049dccbebf1fc3f3c",
+        "html_url": "https://github.com/charliermarsh/langchain/commit/d7e12750df1b696793097ca049dccbebf1fc3f3c",
+        "comments_url": "https://api.github.com/repos/charliermarsh/langchain/commits/d7e12750df1b696793097ca049dccbebf1fc3f3c/comments",
+        "author": {
+          "login": "AIexanderDicke",
+          "id": 119596967,
+          "node_id": "U_kgDOByDnpw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/119596967?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/AIexanderDicke",
+          "html_url": "https://github.com/AIexanderDicke",
+          "followers_url": "https://api.github.com/users/AIexanderDicke/followers",
+          "following_url": "https://api.github.com/users/AIexanderDicke/following{/other_user}",
+          "gists_url": "https://api.github.com/users/AIexanderDicke/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/AIexanderDicke/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/AIexanderDicke/subscriptions",
+          "organizations_url": "https://api.github.com/users/AIexanderDicke/orgs",
+          "repos_url": "https://api.github.com/users/AIexanderDicke/repos",
+          "events_url": "https://api.github.com/users/AIexanderDicke/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/AIexanderDicke/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "ea43c669f28f4564cc23cb9cc1356e363508e69d",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/commits/ea43c669f28f4564cc23cb9cc1356e363508e69d",
+            "html_url": "https://github.com/charliermarsh/langchain/commit/ea43c669f28f4564cc23cb9cc1356e363508e69d"
+          }
+        ]
+      },
+      {
+        "sha": "ea43c669f28f4564cc23cb9cc1356e363508e69d",
+        "node_id": "C_kwDOL1GQZdoAKGVhNDNjNjY5ZjI4ZjQ1NjRjYzIzY2I5Y2MxMzU2ZTM2MzUwOGU2OWQ",
+        "commit": {
+          "author": {
+            "name": "Jonathan Evans",
+            "email": "jonathan.ca.evans@gmail.com",
+            "date": "2024-04-30T00:14:36Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-30T00:14:36Z"
+          },
+          "message": "community[patch]: Fix Bedrock Mistral stop sequence request key (#20115)\n\n- **Description:** Change Bedrock's Mistral stop sequence key mapping to\r\n\"stop\" rather than \"stop_sequences\" which is the correct key [Bedrock\r\ndocs\r\nlink](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-mistral.html)\r\n`{\r\n    \"prompt\": string,\r\n    \"max_tokens\" : int,\r\n    \"stop\" : [string],    \r\n    \"temperature\": float,\r\n    \"top_p\": float,\r\n    \"top_k\": int\r\n}`\r\n- **Issue:** #20053 \r\n- **Dependencies:** N/A\r\n- **Twitter handle:** N/a",
+          "tree": {
+            "sha": "1896be6de9c02e99b152bd2d09aaa5673d3e739b",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/git/trees/1896be6de9c02e99b152bd2d09aaa5673d3e739b"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/langchain/git/commits/ea43c669f28f4564cc23cb9cc1356e363508e69d",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMDfsCRC1aQ7uu5UhlAAAG1QQAKXH4qN/TmATdBu80ZExYSd1\nkLxNrr7M+MTkw2pvcX54c0OLP3XRJR8Re+bwV0p5fL9avi4OMu1hJD2DfNdNnbV8\nhJHfzf5eJkDyLPO7SNxpZC5qA9AFljjKy0h0noOkjrIcPASCjRr5yCyNbpfFfeCD\nY3HGsn5ogt9V1Mvgr1xyZ2N3RDoohG7w3qLWX963oa3ZnPuFsv0RsoI1Xe2LpQBl\nVKlaDVHPMjwfC5EO5HWEobEHd1UjZWVCEdKQC3ehje4malS/b/Nh8qSmezectNaW\nyv2tS4xhC5sTPrhDyvDlJO4EUkOdd93uY2QI7j3fY7372d8DL28ah19C89uGZCET\n7TC5QAnKtbjxS5Q5lui7NycpahUU4qxENmp3T9gGZFJVaQoaiV3RifPa5rSeugSQ\nbdvBGRv4xqpic2YRg2YrqMr/iNOOlZVzQGAsoyVZwSH4Cz+P1vyLYtdUopUw3Ggr\nbonPA/vovTdJxGydcQgfWgZwQefAQSwHEnU+SybxyDAELCsFwMBGLV3hvOdDbFML\nAkmY4+2yLp78x38v4xOJQ7kYKgVZ9sXD8e5pBJ14gbelHPDAETt489VS07Vj5OUn\nMvJREOcIEyGrplW/LyOCQoxvkhNtKTAZ/2ufVqZAASpLbQxpKLkv99fJ6CSP47Ab\nVj2g59dtcsi5/7u5QYxx\n=F1jc\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 1896be6de9c02e99b152bd2d09aaa5673d3e739b\nparent 28b0b0d863916272569010c11328f60173f1cd5f\nauthor Jonathan Evans <jonathan.ca.evans@gmail.com> 1714436076 -0700\ncommitter GitHub <noreply@github.com> 1714436076 -0400\n\ncommunity[patch]: Fix Bedrock Mistral stop sequence request key (#20115)\n\n- **Description:** Change Bedrock's Mistral stop sequence key mapping to\r\n\"stop\" rather than \"stop_sequences\" which is the correct key [Bedrock\r\ndocs\r\nlink](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-mistral.html)\r\n`{\r\n    \"prompt\": string,\r\n    \"max_tokens\" : int,\r\n    \"stop\" : [string],    \r\n    \"temperature\": float,\r\n    \"top_p\": float,\r\n    \"top_k\": int\r\n}`\r\n- **Issue:** #20053 \r\n- **Dependencies:** N/A\r\n- **Twitter handle:** N/a"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/langchain/commits/ea43c669f28f4564cc23cb9cc1356e363508e69d",
+        "html_url": "https://github.com/charliermarsh/langchain/commit/ea43c669f28f4564cc23cb9cc1356e363508e69d",
+        "comments_url": "https://api.github.com/repos/charliermarsh/langchain/commits/ea43c669f28f4564cc23cb9cc1356e363508e69d/comments",
+        "author": {
+          "login": "jonathancaevans",
+          "id": 8020664,
+          "node_id": "MDQ6VXNlcjgwMjA2NjQ=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/8020664?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jonathancaevans",
+          "html_url": "https://github.com/jonathancaevans",
+          "followers_url": "https://api.github.com/users/jonathancaevans/followers",
+          "following_url": "https://api.github.com/users/jonathancaevans/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jonathancaevans/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jonathancaevans/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jonathancaevans/subscriptions",
+          "organizations_url": "https://api.github.com/users/jonathancaevans/orgs",
+          "repos_url": "https://api.github.com/users/jonathancaevans/repos",
+          "events_url": "https://api.github.com/users/jonathancaevans/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jonathancaevans/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "28b0b0d863916272569010c11328f60173f1cd5f",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/commits/28b0b0d863916272569010c11328f60173f1cd5f",
+            "html_url": "https://github.com/charliermarsh/langchain/commit/28b0b0d863916272569010c11328f60173f1cd5f"
+          }
+        ]
+      },
+      {
+        "sha": "28b0b0d863916272569010c11328f60173f1cd5f",
+        "node_id": "C_kwDOL1GQZdoAKDI4YjBiMGQ4NjM5MTYyNzI1NjkwMTBjMTEzMjhmNjAxNzNmMWNkNWY",
+        "commit": {
+          "author": {
+            "name": "davidkgp",
+            "email": "davidkgp@gmail.com",
+            "date": "2024-04-30T00:10:08Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-30T00:10:08Z"
+          },
+          "message": "community[patch]: Fix for github issue #17690 (#20117)\n\n…/17690\r\n\r\nThank you for contributing to LangChain!\r\n\r\n- [x] **Fix Google Lens knowledge graph issue**: \"langchain: community\"\r\n- Fix for [No \"knowledge_graph\" property in Google Lens API call from\r\nSerpAPI](https://github.com/langchain-ai/langchain/issues/17690)\r\n\r\n\r\n- [x] **PR message**: ***Delete this entire checklist*** and replace\r\nwith\r\n- **Description:** handled the existence of keys in the json response of\r\nGoogle Lens\r\n- **Issue:** [No \"knowledge_graph\" property in Google Lens API call from\r\nSerpAPI](https://github.com/langchain-ai/langchain/issues/17690)\r\n\r\n\r\n\r\n- [x] **Lint and test**: Run `make format`, `make lint` and `make test`\r\nfrom the root of the package(s) you've modified. See contribution\r\nguidelines for more: https://python.langchain.com/docs/contributing/\r\n\r\n\r\nIf no one reviews your PR within a few days, please @-mention one of\r\nbaskaryan, efriis, eyurtsev, hwchase17.\r\n\r\nCo-authored-by: Bagatur <22008038+baskaryan@users.noreply.github.com>",
+          "tree": {
+            "sha": "1896be6de9c02e99b152bd2d09aaa5673d3e739b",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/git/trees/1896be6de9c02e99b152bd2d09aaa5673d3e739b"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/langchain/git/commits/28b0b0d863916272569010c11328f60173f1cd5f",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMDbgCRC1aQ7uu5UhlAAAGqAQAIo+kqPVPN6eQkwT2ZAJ4JZJ\nsZ7FTOxOZysMGKh2d18Wm10B/XGyLLCLwCORMRwIcTfMSvpJ+qhgHFvA7MtcVX4u\njuyIEs5Ldd8VB44A+GoKjMR1fjgJxopQrt+UJb4vHVWmXvheYJMymU/ydMGUXxvz\n0i0lUC2nobgbpLYwbuLQjPTSbFi+XfRfmaUCmAxJfmaX/qiOg06bRB/LMUGXDxjP\nyQtJNPCEzaaTWiSlreTuJTaOXJLoMApg3YeYxmPqIaak42hPJsKNCAPia2rVmECc\n+7GnXT/6YDCV0bBGvunVhPkFR0hm1KX8/NIfEXon8dcdciby7Y0Dw5p7BJL8EDf4\ns5H8w+D3blSChYoLrpx6QZb8FH87YKuWqzR3m+Zlu2X49SRAcvmU+5M8jpmEAZQD\niERcmArgk6C9iBs4MKy38KC4oJZyN+lhrTN6ffM0paP86/k4et9lAyDdEUM3ndlP\n1kY3MfskLZ2GndEcYv2p1Fj+rJzRMu/oFRDNoYzp5S0R9LfpqyNxAP2vWAILY8Ui\nDBRbXrqKwN9AqK0jTUvx+/R6+oEBKc+Pt04J/hrW3n52sWP69mJ2XjH/7XNE+sxJ\njZLqt9H7ybh77nXLvmbC5bcAb/t2hkt9dXicoWO48FTfhlMInjyR9MOrRRPnHzDi\nMpPncRWVsKR+MFephoZi\n=3sFT\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 1896be6de9c02e99b152bd2d09aaa5673d3e739b\nparent a7a4630bf426d1d12dc44a8c9c735be2016dc47e\nauthor davidkgp <davidkgp@gmail.com> 1714435808 +0200\ncommitter GitHub <noreply@github.com> 1714435808 +0000\n\ncommunity[patch]: Fix for github issue #17690 (#20117)\n\n…/17690\r\n\r\nThank you for contributing to LangChain!\r\n\r\n- [x] **Fix Google Lens knowledge graph issue**: \"langchain: community\"\r\n- Fix for [No \"knowledge_graph\" property in Google Lens API call from\r\nSerpAPI](https://github.com/langchain-ai/langchain/issues/17690)\r\n\r\n\r\n- [x] **PR message**: ***Delete this entire checklist*** and replace\r\nwith\r\n- **Description:** handled the existence of keys in the json response of\r\nGoogle Lens\r\n- **Issue:** [No \"knowledge_graph\" property in Google Lens API call from\r\nSerpAPI](https://github.com/langchain-ai/langchain/issues/17690)\r\n\r\n\r\n\r\n- [x] **Lint and test**: Run `make format`, `make lint` and `make test`\r\nfrom the root of the package(s) you've modified. See contribution\r\nguidelines for more: https://python.langchain.com/docs/contributing/\r\n\r\n\r\nIf no one reviews your PR within a few days, please @-mention one of\r\nbaskaryan, efriis, eyurtsev, hwchase17.\r\n\r\nCo-authored-by: Bagatur <22008038+baskaryan@users.noreply.github.com>"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/langchain/commits/28b0b0d863916272569010c11328f60173f1cd5f",
+        "html_url": "https://github.com/charliermarsh/langchain/commit/28b0b0d863916272569010c11328f60173f1cd5f",
+        "comments_url": "https://api.github.com/repos/charliermarsh/langchain/commits/28b0b0d863916272569010c11328f60173f1cd5f/comments",
+        "author": {
+          "login": "davidkgp",
+          "id": 34774712,
+          "node_id": "MDQ6VXNlcjM0Nzc0NzEy",
+          "avatar_url": "https://avatars.githubusercontent.com/u/34774712?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/davidkgp",
+          "html_url": "https://github.com/davidkgp",
+          "followers_url": "https://api.github.com/users/davidkgp/followers",
+          "following_url": "https://api.github.com/users/davidkgp/following{/other_user}",
+          "gists_url": "https://api.github.com/users/davidkgp/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/davidkgp/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/davidkgp/subscriptions",
+          "organizations_url": "https://api.github.com/users/davidkgp/orgs",
+          "repos_url": "https://api.github.com/users/davidkgp/repos",
+          "events_url": "https://api.github.com/users/davidkgp/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/davidkgp/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "a7a4630bf426d1d12dc44a8c9c735be2016dc47e",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/commits/a7a4630bf426d1d12dc44a8c9c735be2016dc47e",
+            "html_url": "https://github.com/charliermarsh/langchain/commit/a7a4630bf426d1d12dc44a8c9c735be2016dc47e"
+          }
+        ]
+      },
+      {
+        "sha": "a7a4630bf426d1d12dc44a8c9c735be2016dc47e",
+        "node_id": "C_kwDOL1GQZdoAKGE3YTQ2MzBiZjQyNmQxZDEyZGM0NGE4YzljNzM1YmUyMDE2ZGM0N2U",
+        "commit": {
+          "author": {
+            "name": "高远",
+            "email": "90301759+19374242@users.noreply.github.com",
+            "date": "2024-04-30T00:06:00Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-30T00:06:00Z"
+          },
+          "message": "community[patch]: Modify the text field type and add new exception handling (#20116)\n\nCo-authored-by: gaoyuan <gaoyuan.20001218@bytedance.com>",
+          "tree": {
+            "sha": "972a8bc11642489f9c9cdc54ee208182fd466c9e",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/git/trees/972a8bc11642489f9c9cdc54ee208182fd466c9e"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/langchain/git/commits/a7a4630bf426d1d12dc44a8c9c735be2016dc47e",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMDXoCRC1aQ7uu5UhlAAATpcQAE59a/zqtd5PVsbWKphi9LOH\nHhiJ19r+sd1wCAtTRGzcjlRrHDmorhWEybVD1iB+YJPgLyDVrwN2jHM4RMki1Xu3\nyv4yeNWXL3Ej+HQRxU6hTk1RcClJeRRyTfJeCDtjlcIVpqvxzSvlK31i9jBif4f2\nq5xg8d5nccvOxQ7ARaGwifmim40H2jaMIu2mcbsE2vDy1260LSq/3gCYtzwGnD3A\nmRvFa72MM0zbQot5P41u8hqaAuNbut+iNZcHtVLVgRS7C9Iv+PY5jZvaGNjiSObd\n9ZcTBs1+yoHn2S3he3JEb2PMhIRHv8T5AbtjY349ezcYmSXBDA3vGlFjDLuZJk5F\nUbT43LC9hi5iYxkkja8bNDAlRgZS4RdHh3A6TFtNOU8nWlakJrkc8jpxLRC6rgHQ\njVzUuYWXt1hyLCHHOSGbctOyl7svxmZqE3sD9pPIdTH1wmKIDltNA+VPpQae7ByV\nKBhL7nD8aUnQuIIOOQJQrFExTnk6pUXbzp0+Ji6YFYSkfoOCUhhwO/iqOjyL/wrC\nE/EVJtWQh66MCrhktEvr98APHnuhPurNkufzq3VVGxbUVfe8BQrf2eUxNQLGkM2N\nAvHzCRqsX9vf/wwiFZ2rm3BXfHZZUsBMnu9bazQN93qeQrWOZFqcN4tdIaW81J2/\n7hELxL+XhSlntDHBJSGI\n=VT/G\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 972a8bc11642489f9c9cdc54ee208182fd466c9e\nparent c172611647ee137df085a0f23f3add0d3a4d8ffd\nauthor 高远 <90301759+19374242@users.noreply.github.com> 1714435560 +0800\ncommitter GitHub <noreply@github.com> 1714435560 -0400\n\ncommunity[patch]: Modify the text field type and add new exception handling (#20116)\n\nCo-authored-by: gaoyuan <gaoyuan.20001218@bytedance.com>"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/langchain/commits/a7a4630bf426d1d12dc44a8c9c735be2016dc47e",
+        "html_url": "https://github.com/charliermarsh/langchain/commit/a7a4630bf426d1d12dc44a8c9c735be2016dc47e",
+        "comments_url": "https://api.github.com/repos/charliermarsh/langchain/commits/a7a4630bf426d1d12dc44a8c9c735be2016dc47e/comments",
+        "author": {
+          "login": "19374242",
+          "id": 90301759,
+          "node_id": "MDQ6VXNlcjkwMzAxNzU5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/90301759?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/19374242",
+          "html_url": "https://github.com/19374242",
+          "followers_url": "https://api.github.com/users/19374242/followers",
+          "following_url": "https://api.github.com/users/19374242/following{/other_user}",
+          "gists_url": "https://api.github.com/users/19374242/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/19374242/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/19374242/subscriptions",
+          "organizations_url": "https://api.github.com/users/19374242/orgs",
+          "repos_url": "https://api.github.com/users/19374242/repos",
+          "events_url": "https://api.github.com/users/19374242/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/19374242/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "c172611647ee137df085a0f23f3add0d3a4d8ffd",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/commits/c172611647ee137df085a0f23f3add0d3a4d8ffd",
+            "html_url": "https://github.com/charliermarsh/langchain/commit/c172611647ee137df085a0f23f3add0d3a4d8ffd"
+          }
+        ]
+      },
+      {
+        "sha": "c172611647ee137df085a0f23f3add0d3a4d8ffd",
+        "node_id": "C_kwDOL1GQZdoAKGMxNzI2MTE2NDdlZTEzN2RmMDg1YTBmMjNmM2FkZDBkM2E0ZDhmZmQ",
+        "commit": {
+          "author": {
+            "name": "Rahul Triptahi",
+            "email": "rahul.psit.ec@gmail.com",
+            "date": "2024-04-29T21:41:09Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-04-29T21:41:09Z"
+          },
+          "message": "community[patch]: Add classifier_url argument in PebbloSafeLoader and documentation update. (#21030)\n\nDescription: Add classifier_url argument in PebbloSafeLoader.\r\nDocumentation: Updated PebbloSafeLoader documentation with above change\r\nand new links for pebblo github pages.\r\n\r\n---------\r\n\r\nSigned-off-by: Rahul Tripathi <rauhl.psit.ec@gmail.com>\r\nCo-authored-by: Rahul Tripathi <rauhl.psit.ec@gmail.com>",
+          "tree": {
+            "sha": "a834a92cf22b3ad0e003bbe162a1048962a41cf8",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/git/trees/a834a92cf22b3ad0e003bbe162a1048962a41cf8"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/langchain/git/commits/c172611647ee137df085a0f23f3add0d3a4d8ffd",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmMBP1CRC1aQ7uu5UhlAAANVQQAIq/bcc9FD87YAs3loKSRbQI\n7EKDj4l3bVC4IZNtMgRDKpLqJwdDW0kidoj/l0UaCfzZo2I8qhdxDS7KNeWNwsl2\nv3gxqB0BSKwr2lNngIQkqXLtapRXQuJgYgleXCWoNxiuFdlqwjEYcupo+WQyK/iH\ncXFTjB+ntq+QpYQ31TrLkORiNkybacUHXx4yr0Ga8MKbdTQYwf2+HW/hNAX7KQL9\n5nVCT3uja8Oq6LWMl0Z24ipzDmX8stnQBanXscvB+lv36FtjLZR2r54Q9h8Su8tV\nftwejPqtAM8/JUlde/+ozHiIY2R2BCrRCBmzKY00Q5IGIZ8M2rtsSGgfqHJMGLQY\ntQ6wz+Pt5/FVP0MA2pPLZz66P4OkSWs7O8Z0pejty9OIG5VY7k9UX6Fv9DdN/Vp4\n/Bg9TYmH7/Vj2IEmt+trhtDqssnuV3uVrOYbxNoo3WbAlgYqErqjiBpWBxN1Z7aD\nNwdqEBIHFAoIoYwhYphrpiI9amxbeWh7r0e9UKkHbFve3LWkPy6yzntp492tYEy6\nzga2mhGipFHIur79nPkZuyrfH8sWUh/vixswZUNjTI3LJvNaDxyzGEzrQZkePNJc\ntrFqB/nqC0qSJoXoYj63Pjlx2jtWiViDx8Mw96ymsDocsvCsM9QkCUH/qJo1VG17\n5HVyjQhcKNR34RPEGij+\n=dEWh\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree a834a92cf22b3ad0e003bbe162a1048962a41cf8\nparent 08d08d7c83d311e435abdc26f4934dadfe67fda2\nauthor Rahul Triptahi <rahul.psit.ec@gmail.com> 1714426869 +0530\ncommitter GitHub <noreply@github.com> 1714426869 -0400\n\ncommunity[patch]: Add classifier_url argument in PebbloSafeLoader and documentation update. (#21030)\n\nDescription: Add classifier_url argument in PebbloSafeLoader.\r\nDocumentation: Updated PebbloSafeLoader documentation with above change\r\nand new links for pebblo github pages.\r\n\r\n---------\r\n\r\nSigned-off-by: Rahul Tripathi <rauhl.psit.ec@gmail.com>\r\nCo-authored-by: Rahul Tripathi <rauhl.psit.ec@gmail.com>"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/langchain/commits/c172611647ee137df085a0f23f3add0d3a4d8ffd",
+        "html_url": "https://github.com/charliermarsh/langchain/commit/c172611647ee137df085a0f23f3add0d3a4d8ffd",
+        "comments_url": "https://api.github.com/repos/charliermarsh/langchain/commits/c172611647ee137df085a0f23f3add0d3a4d8ffd/comments",
+        "author": {
+          "login": "rahul-trip",
+          "id": 9318457,
+          "node_id": "MDQ6VXNlcjkzMTg0NTc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9318457?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rahul-trip",
+          "html_url": "https://github.com/rahul-trip",
+          "followers_url": "https://api.github.com/users/rahul-trip/followers",
+          "following_url": "https://api.github.com/users/rahul-trip/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rahul-trip/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rahul-trip/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rahul-trip/subscriptions",
+          "organizations_url": "https://api.github.com/users/rahul-trip/orgs",
+          "repos_url": "https://api.github.com/users/rahul-trip/repos",
+          "events_url": "https://api.github.com/users/rahul-trip/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rahul-trip/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "08d08d7c83d311e435abdc26f4934dadfe67fda2",
+            "url": "https://api.github.com/repos/charliermarsh/langchain/commits/08d08d7c83d311e435abdc26f4934dadfe67fda2",
+            "html_url": "https://github.com/charliermarsh/langchain/commit/08d08d7c83d311e435abdc26f4934dadfe67fda2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "pip",
+    "commits": [
+      {
+        "sha": "612515d2e0a6ff8676c139c096a45bc28b3456f4",
+        "node_id": "C_kwDOL-Pb-NoAKDYxMjUxNWQyZTBhNmZmODY3NmMxMzljMDk2YTQ1YmMyOGIzNDU2ZjQ",
+        "commit": {
+          "author": {
+            "name": "Fredrik Orderud",
+            "email": "forderud@users.noreply.github.com",
+            "date": "2024-05-15T15:21:03Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-15T15:21:03Z"
+          },
+          "message": "Document how to activate truststore persistently (#12699)",
+          "tree": {
+            "sha": "08d0f8bf011220a1ae9e0ea890c5c861d258402f",
+            "url": "https://api.github.com/repos/charliermarsh/pip/git/trees/08d0f8bf011220a1ae9e0ea890c5c861d258402f"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/pip/git/commits/612515d2e0a6ff8676c139c096a45bc28b3456f4",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmRNLfCRC1aQ7uu5UhlAAAASYQAAQO2SPkoJwzQRH3kyA+E8gD\nX42QPFdP1VO9wNLIlKmf0EWW9iAJ7owjpqWyKXsN7iWnw50Elu73nN/ST8OGs/sH\nBj3IeXIklvgRIvxs/Nw2ETfBtZo50cD3wz8gME+2swb1d6QxdsjsyvRzxR4Vwko8\nBuCsOzzMofWF4Fav6VpBlVBYgmqSiXs2hiEkwBlEsz8PfMAONm8JmDr8cbCoCC70\n1ZQ0/m8t/fv/PyTg0FdgF+Mfo4QAc1wQXy8L+QtwwNcorO4ulrC0leoYNKizkTHW\n55jX1zB3XKHI9HyqsSMSOyeyPDmKoIv82/udL4hid1rCcWJ524GzW0XO/msn4Opt\niWeOkKln8gQiCrT9hixoUet5KGgGWKpVxUZYCMozyPQuh6tNPTfy6GlbBiSbpZAc\n6LX2UbmPJ84/8+QdJFdwdJ9z7Em4jjkL7Cijjdd9Ybg76ylos5+pVcDuyI+EnMMp\naVlTQDLjeMpln+NcTvGieS9NcJ2Cp7GE6ExaJo3Bamm9+RsW+X7YdME9r5fEeSZE\n7U+63/vfJlXxSoyjfCzNXOrK5WKYN3BCPWK5Cqv6nRQmfAO4s6MYqBPsBhdo/Jmg\nlW/sT0VGz30V5VlCGumn0tSSzKbc06CdoEufaK2uHt8Hwn3w4hwNb7BRlrBOWHY7\nwT7IwZdxtlBJvIdCX3WD\n=o455\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 08d0f8bf011220a1ae9e0ea890c5c861d258402f\nparent d2a48b2d9ab8d24182c4ba54c00f2a19293211bc\nauthor Fredrik Orderud <forderud@users.noreply.github.com> 1715786463 -0700\ncommitter GitHub <noreply@github.com> 1715786463 -0400\n\nDocument how to activate truststore persistently (#12699)\n\n"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/pip/commits/612515d2e0a6ff8676c139c096a45bc28b3456f4",
+        "html_url": "https://github.com/charliermarsh/pip/commit/612515d2e0a6ff8676c139c096a45bc28b3456f4",
+        "comments_url": "https://api.github.com/repos/charliermarsh/pip/commits/612515d2e0a6ff8676c139c096a45bc28b3456f4/comments",
+        "author": {
+          "login": "forderud",
+          "id": 2671400,
+          "node_id": "MDQ6VXNlcjI2NzE0MDA=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2671400?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/forderud",
+          "html_url": "https://github.com/forderud",
+          "followers_url": "https://api.github.com/users/forderud/followers",
+          "following_url": "https://api.github.com/users/forderud/following{/other_user}",
+          "gists_url": "https://api.github.com/users/forderud/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/forderud/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/forderud/subscriptions",
+          "organizations_url": "https://api.github.com/users/forderud/orgs",
+          "repos_url": "https://api.github.com/users/forderud/repos",
+          "events_url": "https://api.github.com/users/forderud/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/forderud/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "d2a48b2d9ab8d24182c4ba54c00f2a19293211bc",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/d2a48b2d9ab8d24182c4ba54c00f2a19293211bc",
+            "html_url": "https://github.com/charliermarsh/pip/commit/d2a48b2d9ab8d24182c4ba54c00f2a19293211bc"
+          }
+        ]
+      },
+      {
+        "sha": "d2a48b2d9ab8d24182c4ba54c00f2a19293211bc",
+        "node_id": "C_kwDOL-Pb-NoAKGQyYTQ4YjJkOWFiOGQyNDE4MmM0YmE1NGMwMGYyYTE5MjkzMjExYmM",
+        "commit": {
+          "author": {
+            "name": "Richard Si",
+            "email": "sichard26@gmail.com",
+            "date": "2024-05-14T23:43:54Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-14T23:43:54Z"
+          },
+          "message": "Remove vendored colorama (#12702)\n\nPip's internal codebase doesn't use colorama anywhere. It was kept\r\naround for rich, but rich 12+ doesn't need it (opting to issue the\r\nappropriate Win32 API calls itself). pygments still imports colorama,\r\nbut it's an optional dependency for the command line interface which\r\npip evidently doesn't use.",
+          "tree": {
+            "sha": "20bfcfdd12ff712aaf6eb25d404fe0b7a9225cca",
+            "url": "https://api.github.com/repos/charliermarsh/pip/git/trees/20bfcfdd12ff712aaf6eb25d404fe0b7a9225cca"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/pip/git/commits/d2a48b2d9ab8d24182c4ba54c00f2a19293211bc",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmQ/c6CRC1aQ7uu5UhlAAAtEwQAIKN8zMf3SgqF13283lMCC2U\nh+VIZuBcgPEY1Xpoz2+lem+FV0F2JkH3SNURXILHo4j8/y7UZaJXrt7VGWWeI/C4\nbz8qPLSGrnGE9A0/1xNcO9OUgVQwAdFkJgfSKjf/0rC/QOsjMkPfNUDKxagYfMP3\nrKtBNCHEaOo7N11RF5Hob8VQFrT0IoIhouu8Zx2GjDsEAUCF/XUyv2WhX0Z7K1mY\nVfkuS8JYdCgAsMRxOWE6Aw/i/c12GBMhwc5N4t2yv54gD0MFjxig4DAH/P6aSLAe\nG2qSjo0p9MF7C2wpqEHQ+DzSPMy+rAdRstn7YBnrAygzRrr44POTCR5o5vh0HYvb\ndjK55sG/i0syjkMQPcFVa7TGsxpbiItZKY/+Ntsch9SXr3vPamlDnOl38/lRdYS7\nD0mv1Dei99+/y0ENZhZvb+zCnhVF0AOqUzNBW4gJvIF08olPKLyJ4qHnzrlIvZmi\nmacrqIbOy2uhHXoHPROkpssXVcWo9/jj/0e70hoTQy+F9RdDmszN/2SFcPpaCvKf\nApsI3PP6plwldi6v1yEFZBLmoahhX9iJFA8HMunMWyaMhVY2QJsxyiGZuVOlB9KF\nspfdXKUnp50ZPrrt6lBMCWucj76DluaVAXj1dR9yrwKfLjNJbJ4omFsWvy8xw6Jp\nh2Y6awUrOBzAUewZ7wA9\n=nD/y\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 20bfcfdd12ff712aaf6eb25d404fe0b7a9225cca\nparent 762faa776d47ed0415424623bc63aade57facd9b\nauthor Richard Si <sichard26@gmail.com> 1715730234 -0400\ncommitter GitHub <noreply@github.com> 1715730234 -0400\n\nRemove vendored colorama (#12702)\n\nPip's internal codebase doesn't use colorama anywhere. It was kept\r\naround for rich, but rich 12+ doesn't need it (opting to issue the\r\nappropriate Win32 API calls itself). pygments still imports colorama,\r\nbut it's an optional dependency for the command line interface which\r\npip evidently doesn't use."
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/pip/commits/d2a48b2d9ab8d24182c4ba54c00f2a19293211bc",
+        "html_url": "https://github.com/charliermarsh/pip/commit/d2a48b2d9ab8d24182c4ba54c00f2a19293211bc",
+        "comments_url": "https://api.github.com/repos/charliermarsh/pip/commits/d2a48b2d9ab8d24182c4ba54c00f2a19293211bc/comments",
+        "author": {
+          "login": "ichard26",
+          "id": 63936253,
+          "node_id": "MDQ6VXNlcjYzOTM2MjUz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/63936253?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ichard26",
+          "html_url": "https://github.com/ichard26",
+          "followers_url": "https://api.github.com/users/ichard26/followers",
+          "following_url": "https://api.github.com/users/ichard26/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ichard26/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ichard26/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ichard26/subscriptions",
+          "organizations_url": "https://api.github.com/users/ichard26/orgs",
+          "repos_url": "https://api.github.com/users/ichard26/repos",
+          "events_url": "https://api.github.com/users/ichard26/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ichard26/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "762faa776d47ed0415424623bc63aade57facd9b",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/762faa776d47ed0415424623bc63aade57facd9b",
+            "html_url": "https://github.com/charliermarsh/pip/commit/762faa776d47ed0415424623bc63aade57facd9b"
+          }
+        ]
+      },
+      {
+        "sha": "762faa776d47ed0415424623bc63aade57facd9b",
+        "node_id": "C_kwDOL-Pb-NoAKDc2MmZhYTc3NmQ0N2VkMDQxNTQyNDYyM2JjNjNhYWRlNTdmYWNkOWI",
+        "commit": {
+          "author": {
+            "name": "Tzu-ping Chung",
+            "email": "uranusjr@gmail.com",
+            "date": "2024-05-14T10:13:19Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-14T10:13:19Z"
+          },
+          "message": "Merge pull request #12682 from ichard26/prune-vendoring",
+          "tree": {
+            "sha": "b65a5fdcb90ed208e8b721843c8a04d11e07022a",
+            "url": "https://api.github.com/repos/charliermarsh/pip/git/trees/b65a5fdcb90ed208e8b721843c8a04d11e07022a"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/pip/git/commits/762faa776d47ed0415424623bc63aade57facd9b",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmQzk/CRC1aQ7uu5UhlAAA3DkQADvg71DkAMAExa1rD5JgpIZA\nh0l0G5oQDRIuTj1COOYp3GKfkcLP4ARZBe1FlImuweHHwUzK5hbnKhaKMvKahzDA\nrmAlr0W4mdljOlMQsm783Nsl4B58JjB2n6EqwktrqukrOeG8codYw6JO/l6VKs44\n1qjHISsh5jXRoKso00+JzsxcrnuTsKM+Oz97LJ38Zrp4wmHRj69s3Z7Xbb0EmFX2\newsfRdOs4BbNFpY5C7og+JhMozitMeI/sY9JI9cJn1mtPgavubV/SCpHMfCvP6vY\njp+aPK0Ph+RGWisavWvvFHHpRJ08grm169pyZU/GeI813XbjWGeE6Dx5lwHRVwPX\nfE4ipctzk3MNRs8rJoimBpThtkMQKq8tMPrTwqtSuzJ+W+BwMmh53NDAWJ6Ps4z3\n9uMHULb83/YIqJJF56kLU4IOENimCi/Ts/zqvvLH2xm0eutVjLMmH2T+paJBKfM1\nVtMd8Q1II9lgitN7KK12bIAgGXxFrruVdfHWRZgHbxs3YXTdati5tuQ35Pg8hwzq\nP9tBDpb84E5yu9/yeX+FDLAdA0EqSGk6JYG0iO+3Fw1Pu8b69o7npLsLIb91IPKF\n2r2UQC6gPv2SJcURY7tHbOaq9NZbyRDimSgENYczXHq3HHCpCkxxM/BLPSG/lyy8\nUCFWa3+sZKtSwB4mzQxo\n=1A3Q\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree b65a5fdcb90ed208e8b721843c8a04d11e07022a\nparent 4abdee131ca89653f80f170530930677c6756678\nparent 692b7f00440ca6e225f94cb665696c20d27bfea9\nauthor Tzu-ping Chung <uranusjr@gmail.com> 1715681599 +0800\ncommitter GitHub <noreply@github.com> 1715681599 +0800\n\nMerge pull request #12682 from ichard26/prune-vendoring\n\n"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/pip/commits/762faa776d47ed0415424623bc63aade57facd9b",
+        "html_url": "https://github.com/charliermarsh/pip/commit/762faa776d47ed0415424623bc63aade57facd9b",
+        "comments_url": "https://api.github.com/repos/charliermarsh/pip/commits/762faa776d47ed0415424623bc63aade57facd9b/comments",
+        "author": {
+          "login": "uranusjr",
+          "id": 605277,
+          "node_id": "MDQ6VXNlcjYwNTI3Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/605277?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/uranusjr",
+          "html_url": "https://github.com/uranusjr",
+          "followers_url": "https://api.github.com/users/uranusjr/followers",
+          "following_url": "https://api.github.com/users/uranusjr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/uranusjr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/uranusjr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/uranusjr/subscriptions",
+          "organizations_url": "https://api.github.com/users/uranusjr/orgs",
+          "repos_url": "https://api.github.com/users/uranusjr/repos",
+          "events_url": "https://api.github.com/users/uranusjr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/uranusjr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "4abdee131ca89653f80f170530930677c6756678",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/4abdee131ca89653f80f170530930677c6756678",
+            "html_url": "https://github.com/charliermarsh/pip/commit/4abdee131ca89653f80f170530930677c6756678"
+          },
+          {
+            "sha": "692b7f00440ca6e225f94cb665696c20d27bfea9",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/692b7f00440ca6e225f94cb665696c20d27bfea9",
+            "html_url": "https://github.com/charliermarsh/pip/commit/692b7f00440ca6e225f94cb665696c20d27bfea9"
+          }
+        ]
+      },
+      {
+        "sha": "4abdee131ca89653f80f170530930677c6756678",
+        "node_id": "C_kwDOL-Pb-NoAKDRhYmRlZTEzMWNhODk2NTNmODBmMTcwNTMwOTMwNjc3YzY3NTY2Nzg",
+        "commit": {
+          "author": {
+            "name": "Paul Moore",
+            "email": "p.f.moore@gmail.com",
+            "date": "2024-05-14T08:51:11Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-14T08:51:11Z"
+          },
+          "message": "Merge pull request #12695 from mrKazzila/tmp/pr/fix_deprecation_msg_typo\n\nFix typo in _envs.py",
+          "tree": {
+            "sha": "1667daf09d46433acad565655f2de81e7fc9d29d",
+            "url": "https://api.github.com/repos/charliermarsh/pip/git/trees/1667daf09d46433acad565655f2de81e7fc9d29d"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/pip/git/commits/4abdee131ca89653f80f170530930677c6756678",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmQyX/CRC1aQ7uu5UhlAAAmcwQAEStQQJTkilUuxqBl8LUy4Av\nNwkNkPMRM5MYk0BtIq/BqhQ+nhjEcJ/YLoTGYXJD9S0bZVIYXajvRelJ6VBuWJKR\nhiFjlqtbHdhnsjnzq6pYEkvQOlqMMi8j0b0L1h5wffhCfgeXNH7yhZCYPLeX3yRd\nJdqVgwLAb5XA+sJHCgeqCO9hLw+hLUVfoxTAWeoNuAvv4FptWMzneh3RN0Fw9Sbl\ntEhQdV7z4y1VcDPI+BvsfRibymyZa0CTjIwwhyCHYlyVfC8sv3r7jsohbfG2iedT\n4xE2hIgtsL52ggYX0Wrt7WCbP1vGaLKAVIjzsDQUimZi3OU7LIlqQPUKl5rKDG1a\nJYh+Ap/bgcARND2HYETpuginh0cZ1BpCYglHiQhkYYZ4xHcF+vK+py+j98i/6Hay\nKzncB0x6fSGikPV2BNV+uzPvnNaQW69dHM5VZ8ISyGjTsJXabWqR7vZqD04oVpYA\n8zYdK9RDk/3Y44eq0lE6dYrHtB7ef7bqajBkM+RDADrPW2c3EDhIsMLziiw//z8X\nS1nsF1d6FSwkB0qWZVAi4WGDG213BatP6p0u5c0GVHSWrWT5LtA0SwLsz0WXDGDS\nSrw/QJML7V+nA6JXFLgSEBHI7mmO+3kGL53HeaAKHvbiQISSlxM3FjR0CEpPI16s\neYqihW0KE2KnzATUB7gA\n=brQQ\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 1667daf09d46433acad565655f2de81e7fc9d29d\nparent 0d9a6546a4e71b0e044d89ec94994539c8e90969\nparent 4cc7f04f639fcd9bc2851fbbcc853da74b73151e\nauthor Paul Moore <p.f.moore@gmail.com> 1715676671 +0100\ncommitter GitHub <noreply@github.com> 1715676671 +0100\n\nMerge pull request #12695 from mrKazzila/tmp/pr/fix_deprecation_msg_typo\n\nFix typo in _envs.py"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/pip/commits/4abdee131ca89653f80f170530930677c6756678",
+        "html_url": "https://github.com/charliermarsh/pip/commit/4abdee131ca89653f80f170530930677c6756678",
+        "comments_url": "https://api.github.com/repos/charliermarsh/pip/commits/4abdee131ca89653f80f170530930677c6756678/comments",
+        "author": {
+          "login": "pfmoore",
+          "id": 1110419,
+          "node_id": "MDQ6VXNlcjExMTA0MTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1110419?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pfmoore",
+          "html_url": "https://github.com/pfmoore",
+          "followers_url": "https://api.github.com/users/pfmoore/followers",
+          "following_url": "https://api.github.com/users/pfmoore/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pfmoore/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pfmoore/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pfmoore/subscriptions",
+          "organizations_url": "https://api.github.com/users/pfmoore/orgs",
+          "repos_url": "https://api.github.com/users/pfmoore/repos",
+          "events_url": "https://api.github.com/users/pfmoore/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pfmoore/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0d9a6546a4e71b0e044d89ec94994539c8e90969",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/0d9a6546a4e71b0e044d89ec94994539c8e90969",
+            "html_url": "https://github.com/charliermarsh/pip/commit/0d9a6546a4e71b0e044d89ec94994539c8e90969"
+          },
+          {
+            "sha": "4cc7f04f639fcd9bc2851fbbcc853da74b73151e",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/4cc7f04f639fcd9bc2851fbbcc853da74b73151e",
+            "html_url": "https://github.com/charliermarsh/pip/commit/4cc7f04f639fcd9bc2851fbbcc853da74b73151e"
+          }
+        ]
+      },
+      {
+        "sha": "4cc7f04f639fcd9bc2851fbbcc853da74b73151e",
+        "node_id": "C_kwDOL-Pb-NoAKDRjYzdmMDRmNjM5ZmNkOWJjMjg1MWZiYmNjODUzZGE3NGI3MzE1MWU",
+        "commit": {
+          "author": {
+            "name": "Tzu-ping Chung",
+            "email": "uranusjr@gmail.com",
+            "date": "2024-05-14T08:25:43Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-14T08:25:43Z"
+          },
+          "message": "Merge branch 'main' into tmp/pr/fix_deprecation_msg_typo",
+          "tree": {
+            "sha": "1667daf09d46433acad565655f2de81e7fc9d29d",
+            "url": "https://api.github.com/repos/charliermarsh/pip/git/trees/1667daf09d46433acad565655f2de81e7fc9d29d"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/pip/git/commits/4cc7f04f639fcd9bc2851fbbcc853da74b73151e",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmQyAHCRC1aQ7uu5UhlAAAAeoQAE2vIpYoVUDIFTumWjhJnwtP\noHxXen7KbArIDJTQQ1fKaWgYShg6/Xg35ABiYNVJOSDjRGMsRJKQMyDagnDFteai\nhiBZ4ddwdbCH/lcZGmEHqBtSR/SMehyFyLSgjXX1+fXzbJJntbC5hqmobkNLZHsK\nSa3s71nRZiQi1HLzD86mZVoEVxO7oT427FwtGYv3IPk+I4TN6Gg8xKw+5MiOGlm5\nIj7/q7OTnB2Ft2HkUxhCAM7WlPQW6QYpguMNk8kcEo4jlPs/uN/VoUBI71McO2F+\nP7gpqGN+tT6X25O64kvTlFSfm+xKK/wXdI9/wSpxstdTYcMqgoapwMJXwS02f8Dr\nGXMfFjWTSFwpIhGtjcPjTteC66iRRo2Z3soxZobe7GTy66rltWSlogxOM5M61UtF\nV0PSYTDI5fwmxTP5DGtLgIAIsmbd6q+ms304FhSTMTxDeWcYFh3++x0rsTulD4L6\nFVR8XDDhf0j+4cljy75u7jblrg8fOnab8wYSwDgZ7Od3an1TsOC2MsO7lBerEWrk\ngppYhRaUPrzubxlNQoDIFeieV2jsZnOWdx3rSKqMiBiaOliFWLj0cxJbq67pbtuE\nbESbCxTDVhYxy+TupDmC3LDLYp5ZLvxpaglj/6WJxvnNQ9HiHtnXgE2JfhWjPuMN\nIbztKoukzQ3T3DLBKQcU\n=AHXV\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 1667daf09d46433acad565655f2de81e7fc9d29d\nparent 0af18ed734ff629c99edef8e1c186af29e0ac0db\nparent 0d9a6546a4e71b0e044d89ec94994539c8e90969\nauthor Tzu-ping Chung <uranusjr@gmail.com> 1715675143 +0800\ncommitter GitHub <noreply@github.com> 1715675143 +0800\n\nMerge branch 'main' into tmp/pr/fix_deprecation_msg_typo"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/pip/commits/4cc7f04f639fcd9bc2851fbbcc853da74b73151e",
+        "html_url": "https://github.com/charliermarsh/pip/commit/4cc7f04f639fcd9bc2851fbbcc853da74b73151e",
+        "comments_url": "https://api.github.com/repos/charliermarsh/pip/commits/4cc7f04f639fcd9bc2851fbbcc853da74b73151e/comments",
+        "author": {
+          "login": "uranusjr",
+          "id": 605277,
+          "node_id": "MDQ6VXNlcjYwNTI3Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/605277?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/uranusjr",
+          "html_url": "https://github.com/uranusjr",
+          "followers_url": "https://api.github.com/users/uranusjr/followers",
+          "following_url": "https://api.github.com/users/uranusjr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/uranusjr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/uranusjr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/uranusjr/subscriptions",
+          "organizations_url": "https://api.github.com/users/uranusjr/orgs",
+          "repos_url": "https://api.github.com/users/uranusjr/repos",
+          "events_url": "https://api.github.com/users/uranusjr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/uranusjr/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "0af18ed734ff629c99edef8e1c186af29e0ac0db",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/0af18ed734ff629c99edef8e1c186af29e0ac0db",
+            "html_url": "https://github.com/charliermarsh/pip/commit/0af18ed734ff629c99edef8e1c186af29e0ac0db"
+          },
+          {
+            "sha": "0d9a6546a4e71b0e044d89ec94994539c8e90969",
+            "url": "https://api.github.com/repos/charliermarsh/pip/commits/0d9a6546a4e71b0e044d89ec94994539c8e90969",
+            "html_url": "https://github.com/charliermarsh/pip/commit/0d9a6546a4e71b0e044d89ec94994539c8e90969"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "repo": "enscons",
+    "commits": [
+      {
+        "sha": "70c5a02f31a3248fd8e7e27cbc5f8b5a736238dd",
+        "node_id": "C_kwDOL6Paa9oAKDcwYzVhMDJmMzFhMzI0OGZkOGU3ZTI3Y2JjNWY4YjVhNzM2MjM4ZGQ",
+        "commit": {
+          "author": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-05-11T16:14:01Z"
+          },
+          "committer": {
+            "name": "Charlie Marsh",
+            "email": "charlie.r.marsh@gmail.com",
+            "date": "2024-05-11T16:14:01Z"
+          },
+          "message": "Rename settings to config_settings in PEP 517 hooks",
+          "tree": {
+            "sha": "0ff6c22e3bbdffa5dc144809d94deaf20614e6f4",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/git/trees/0ff6c22e3bbdffa5dc144809d94deaf20614e6f4"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/enscons/git/commits/70c5a02f31a3248fd8e7e27cbc5f8b5a736238dd",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/enscons/commits/70c5a02f31a3248fd8e7e27cbc5f8b5a736238dd",
+        "html_url": "https://github.com/charliermarsh/enscons/commit/70c5a02f31a3248fd8e7e27cbc5f8b5a736238dd",
+        "comments_url": "https://api.github.com/repos/charliermarsh/enscons/commits/70c5a02f31a3248fd8e7e27cbc5f8b5a736238dd/comments",
+        "author": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "charliermarsh",
+          "id": 1309177,
+          "node_id": "MDQ6VXNlcjEzMDkxNzc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1309177?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/charliermarsh",
+          "html_url": "https://github.com/charliermarsh",
+          "followers_url": "https://api.github.com/users/charliermarsh/followers",
+          "following_url": "https://api.github.com/users/charliermarsh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/charliermarsh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/charliermarsh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/charliermarsh/subscriptions",
+          "organizations_url": "https://api.github.com/users/charliermarsh/orgs",
+          "repos_url": "https://api.github.com/users/charliermarsh/repos",
+          "events_url": "https://api.github.com/users/charliermarsh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/charliermarsh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "8a63d64d7782bc1ad492181b6578797140684570",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/commits/8a63d64d7782bc1ad492181b6578797140684570",
+            "html_url": "https://github.com/charliermarsh/enscons/commit/8a63d64d7782bc1ad492181b6578797140684570"
+          }
+        ]
+      },
+      {
+        "sha": "8a63d64d7782bc1ad492181b6578797140684570",
+        "node_id": "C_kwDOL6Paa9oAKDhhNjNkNjRkNzc4MmJjMWFkNDkyMTgxYjY1Nzg3OTcxNDA2ODQ1NzA",
+        "commit": {
+          "author": {
+            "name": "Richard Kiss",
+            "email": "him@richardkiss.com",
+            "date": "2024-05-02T17:57:30Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2024-05-02T17:57:30Z"
+          },
+          "message": "Update some documentation (#35)",
+          "tree": {
+            "sha": "101c718b15ab360c9420b52e0ee79cb2136ba169",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/git/trees/101c718b15ab360c9420b52e0ee79cb2136ba169"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/enscons/git/commits/8a63d64d7782bc1ad492181b6578797140684570",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmM9QKCRC1aQ7uu5UhlAAA6rcQAJimyK/Mdht/oN5jx7ibo8xE\nuAXUTZR5Xp8defA/QWC9fktXbTAkopR/ulhm+AP4xN5KafOU/PWxMnwni0gtndFD\np7+JuCq886jQ74hAsBBan16C8Z/a8vTZ/+sc20v1zKcir1FcM/YRlh9ZvE0paZw5\n8ZgEMyeSoYsTR9y6EMgLXVFcFP5HxUEmIxXFilHGyWNVfMwqE8vznBWGKT/J0fL3\nEu9JRqhu0B+lIsRn77WPPuR01mCGApE7ieY4e4yPUiQo4d5f94OABswPkNqlQocw\nLIrahYjSd1pfnjim532tb0YGNOCYDi63kZfPvAdKqpMTqVA/j7QegiJJoqfCSor+\nReXodIJycOju13o7XtMjMpG75zULtoMeCfDUsQtvuoTUMiu9/pupM4tKMKdWit16\nelt+6MRiyULA9lPkzC5UB35lgLdts7LIgWmLK22hvPidMNIESckpv2kHkgED6vCm\njaY37ixzQmq2B9kW67rLVkPKkAwCQV7oAa8dDHxhJ1rNKjJLqTLLbr9LKntx93br\npb2IicJZQfjtbyVxT3iuiaqRrsbug8OI8HBpgypuiHi76XiGdmEDLUKLbnF0PgfR\n0UWtLpzweDN+xu15+PWT3Zutaz/FZ9xA1PwGRLBRN8JG8ruwG2fdMN5oLyHN85kC\nAVcktCrNprhU5U0KEGXo\n=VsQl\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 101c718b15ab360c9420b52e0ee79cb2136ba169\nparent 417717053e4ac988dc3c6bd8782978152e6826f1\nauthor Richard Kiss <him@richardkiss.com> 1714672650 -0700\ncommitter GitHub <noreply@github.com> 1714672650 -0400\n\nUpdate some documentation (#35)\n\n"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/enscons/commits/8a63d64d7782bc1ad492181b6578797140684570",
+        "html_url": "https://github.com/charliermarsh/enscons/commit/8a63d64d7782bc1ad492181b6578797140684570",
+        "comments_url": "https://api.github.com/repos/charliermarsh/enscons/commits/8a63d64d7782bc1ad492181b6578797140684570/comments",
+        "author": {
+          "login": "richardkiss",
+          "id": 5336,
+          "node_id": "MDQ6VXNlcjUzMzY=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/5336?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/richardkiss",
+          "html_url": "https://github.com/richardkiss",
+          "followers_url": "https://api.github.com/users/richardkiss/followers",
+          "following_url": "https://api.github.com/users/richardkiss/following{/other_user}",
+          "gists_url": "https://api.github.com/users/richardkiss/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/richardkiss/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/richardkiss/subscriptions",
+          "organizations_url": "https://api.github.com/users/richardkiss/orgs",
+          "repos_url": "https://api.github.com/users/richardkiss/repos",
+          "events_url": "https://api.github.com/users/richardkiss/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/richardkiss/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "417717053e4ac988dc3c6bd8782978152e6826f1",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/commits/417717053e4ac988dc3c6bd8782978152e6826f1",
+            "html_url": "https://github.com/charliermarsh/enscons/commit/417717053e4ac988dc3c6bd8782978152e6826f1"
+          }
+        ]
+      },
+      {
+        "sha": "417717053e4ac988dc3c6bd8782978152e6826f1",
+        "node_id": "C_kwDOL6Paa9oAKDQxNzcxNzA1M2U0YWM5ODhkYzNjNmJkODc4Mjk3ODE1MmU2ODI2ZjE",
+        "commit": {
+          "author": {
+            "name": "Andrew Brown",
+            "email": "brownan@gmail.com",
+            "date": "2023-01-17T17:21:24Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2023-01-17T17:21:24Z"
+          },
+          "message": "Wrote an initial sphinx documentation page (#32)\n\n* Wrote an initial sphinx documentation page\r\n\r\n* Docs updates: more on wheel tags, how to build the wheel\r\n\r\n* re-convert to markdown\r\n\r\nCo-authored-by: Daniel Holth <dholth@fastmail.fm>",
+          "tree": {
+            "sha": "6a54a440c350b97859bcc8aeef145fd1ab56d1cd",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/git/trees/6a54a440c350b97859bcc8aeef145fd1ab56d1cd"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/enscons/git/commits/417717053e4ac988dc3c6bd8782978152e6826f1",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjxtkUCRBK7hj4Ov3rIwAAIv0IAHI4XVR0mQ06qdQVc1XhcVHu\nC2Wev/qMJL/FgTqD5AGY2Pev2KNcdRhs++Oa0bfXz/r608cqxJVbtrz4A4guS9N2\nvNt944cccMVeKDPJ20m7g0sovdTDMxXQ+GaBpXTQttpKIKrA5yvcj1C1DTxlws/0\nnAs31hmyWIl0deGIUqlf/1C/w06svdhULZO9VwRGPzwftSyaxqBQwIJM5ZCmJr8X\npjH2+upnP09Fwb2C2NvkoBuvMamD4nUcVRKorRAPb9bqwDgKJTm0Oicc48rI82La\nMvOXl+YfNKkd/JrWVJ1fvEu9jnysRT6leyK6JyfeNE6QzOXQ5rUxoMb8OOi1Xp0=\n=Nos/\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 6a54a440c350b97859bcc8aeef145fd1ab56d1cd\nparent 2b549c510d6474f031b7b4956de5e8241fc9d268\nauthor Andrew Brown <brownan@gmail.com> 1673976084 -0500\ncommitter GitHub <noreply@github.com> 1673976084 -0500\n\nWrote an initial sphinx documentation page (#32)\n\n* Wrote an initial sphinx documentation page\r\n\r\n* Docs updates: more on wheel tags, how to build the wheel\r\n\r\n* re-convert to markdown\r\n\r\nCo-authored-by: Daniel Holth <dholth@fastmail.fm>"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/enscons/commits/417717053e4ac988dc3c6bd8782978152e6826f1",
+        "html_url": "https://github.com/charliermarsh/enscons/commit/417717053e4ac988dc3c6bd8782978152e6826f1",
+        "comments_url": "https://api.github.com/repos/charliermarsh/enscons/commits/417717053e4ac988dc3c6bd8782978152e6826f1/comments",
+        "author": {
+          "login": "brownan",
+          "id": 293581,
+          "node_id": "MDQ6VXNlcjI5MzU4MQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/293581?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/brownan",
+          "html_url": "https://github.com/brownan",
+          "followers_url": "https://api.github.com/users/brownan/followers",
+          "following_url": "https://api.github.com/users/brownan/following{/other_user}",
+          "gists_url": "https://api.github.com/users/brownan/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/brownan/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/brownan/subscriptions",
+          "organizations_url": "https://api.github.com/users/brownan/orgs",
+          "repos_url": "https://api.github.com/users/brownan/repos",
+          "events_url": "https://api.github.com/users/brownan/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/brownan/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "2b549c510d6474f031b7b4956de5e8241fc9d268",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/commits/2b549c510d6474f031b7b4956de5e8241fc9d268",
+            "html_url": "https://github.com/charliermarsh/enscons/commit/2b549c510d6474f031b7b4956de5e8241fc9d268"
+          }
+        ]
+      },
+      {
+        "sha": "2b549c510d6474f031b7b4956de5e8241fc9d268",
+        "node_id": "C_kwDOL6Paa9oAKDJiNTQ5YzUxMGQ2NDc0ZjAzMWI3YjQ5NTZkZTVlODI0MWZjOWQyNjg",
+        "commit": {
+          "author": {
+            "name": "Daniel Holth",
+            "email": "dholth@fastmail.fm",
+            "date": "2023-01-11T20:14:49Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2023-01-11T20:14:49Z"
+          },
+          "message": "convert docs to markdown; add github action (#31)\n\n* convert docs to markdown; add github action\r\n* drop python 2.7, adjust pypy version\r\n* adjust pyproject build backend settings",
+          "tree": {
+            "sha": "00519767c624adbf26f20d45c0c8b71b5c4edc12",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/git/trees/00519767c624adbf26f20d45c0c8b71b5c4edc12"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/enscons/git/commits/2b549c510d6474f031b7b4956de5e8241fc9d268",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjvxi5CRBK7hj4Ov3rIwAAG2EIAKya/5FI2kWPuRJrKUE43B/W\n9aDDDySTRsCuJ+bTPr1koe3vzvJnjQF3nWNRZJAY/lsyGHgkZA3KgXBXOg/9IPbl\nOZtzwC0FDqs6huOuADPAgR+yy4OEd0dJWSugx0S1e+wk1KPWjIIqhqOWSKP3Dkna\n1RCW6urWjBDS19oaA4XMDpsRmpRC9DgAVGkNP9QQlXd3dWGf55d+1zAiecCcxp29\nUaKF4kKMelfeb/cOA6Vr9raabk1UtnKZrbNd70Y6ZLiE3eJUHP+qIbS74Gk247K4\nkdMZQVOgoKuKtqSt4wBA3Ukg5jtc1y0Vx09c84Ks8oJds4299YXjEyUmmDn8XKo=\n=q2mH\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 00519767c624adbf26f20d45c0c8b71b5c4edc12\nparent 4bd5b804bc35c26ddd5a66012c05810d47cc802f\nauthor Daniel Holth <dholth@fastmail.fm> 1673468089 -0500\ncommitter GitHub <noreply@github.com> 1673468089 -0500\n\nconvert docs to markdown; add github action (#31)\n\n* convert docs to markdown; add github action\r\n* drop python 2.7, adjust pypy version\r\n* adjust pyproject build backend settings"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/enscons/commits/2b549c510d6474f031b7b4956de5e8241fc9d268",
+        "html_url": "https://github.com/charliermarsh/enscons/commit/2b549c510d6474f031b7b4956de5e8241fc9d268",
+        "comments_url": "https://api.github.com/repos/charliermarsh/enscons/commits/2b549c510d6474f031b7b4956de5e8241fc9d268/comments",
+        "author": {
+          "login": "dholth",
+          "id": 208018,
+          "node_id": "MDQ6VXNlcjIwODAxOA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/208018?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dholth",
+          "html_url": "https://github.com/dholth",
+          "followers_url": "https://api.github.com/users/dholth/followers",
+          "following_url": "https://api.github.com/users/dholth/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dholth/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dholth/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dholth/subscriptions",
+          "organizations_url": "https://api.github.com/users/dholth/orgs",
+          "repos_url": "https://api.github.com/users/dholth/repos",
+          "events_url": "https://api.github.com/users/dholth/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dholth/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "4bd5b804bc35c26ddd5a66012c05810d47cc802f",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/commits/4bd5b804bc35c26ddd5a66012c05810d47cc802f",
+            "html_url": "https://github.com/charliermarsh/enscons/commit/4bd5b804bc35c26ddd5a66012c05810d47cc802f"
+          }
+        ]
+      },
+      {
+        "sha": "4bd5b804bc35c26ddd5a66012c05810d47cc802f",
+        "node_id": "C_kwDOL6Paa9oAKDRiZDViODA0YmMzNWMyNmRkZDVhNjYwMTJjMDU4MTBkNDdjYzgwMmY",
+        "commit": {
+          "author": {
+            "name": "Daniel Holth",
+            "email": "dholth@fastmail.fm",
+            "date": "2022-05-25T12:39:39Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2022-05-25T12:39:39Z"
+          },
+          "message": "Merge pull request #28 from kianmeng/fix-typos\n\nFix typos",
+          "tree": {
+            "sha": "c64dfa5271778ca3588a2c05012afb04b6a88260",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/git/trees/c64dfa5271778ca3588a2c05012afb04b6a88260"
+          },
+          "url": "https://api.github.com/repos/charliermarsh/enscons/git/commits/4bd5b804bc35c26ddd5a66012c05810d47cc802f",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJijiOLCRBK7hj4Ov3rIwAA4JkIAFAXnJe4NlCGmOyM9j8pqF9L\nvoX4KH3WJp7XtqOWkmbGUc9Faroy/IklD8vEOE6SyiewF4fCsAfm0XUYOkoYpDby\nq8LAwccNIdeG1Kqdey71kcZ9NlhRHxWE3YwR4VEhvvISNpdZVO0syVgP+ReOcf/2\nS/LQ6JH4oY/c6mmj6oBLXpNcib0YcuIZxS3HaBgys+FX8XwGxFLrVgeJoGGfPvZW\nXwzqBo016Gg8qLQ6ePLnjYctge0F3nukmNYBawQDP5nsCf8SBhVvpD6OBYYZDtsb\nxb+sB3ZE/UtZMngMudPZoDkr0vWSSG1S0S/GY2WVSzX7iEsitEv3m7pJk5hRWeU=\n=13cz\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree c64dfa5271778ca3588a2c05012afb04b6a88260\nparent cc4ac452397f4576b192bf8cf8c781a7f31701bf\nparent 2fbb91a400f98a50b5ccc4d7d80da11039f01cdc\nauthor Daniel Holth <dholth@fastmail.fm> 1653482379 -0400\ncommitter GitHub <noreply@github.com> 1653482379 -0400\n\nMerge pull request #28 from kianmeng/fix-typos\n\nFix typos"
+          }
+        },
+        "url": "https://api.github.com/repos/charliermarsh/enscons/commits/4bd5b804bc35c26ddd5a66012c05810d47cc802f",
+        "html_url": "https://github.com/charliermarsh/enscons/commit/4bd5b804bc35c26ddd5a66012c05810d47cc802f",
+        "comments_url": "https://api.github.com/repos/charliermarsh/enscons/commits/4bd5b804bc35c26ddd5a66012c05810d47cc802f/comments",
+        "author": {
+          "login": "dholth",
+          "id": 208018,
+          "node_id": "MDQ6VXNlcjIwODAxOA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/208018?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dholth",
+          "html_url": "https://github.com/dholth",
+          "followers_url": "https://api.github.com/users/dholth/followers",
+          "following_url": "https://api.github.com/users/dholth/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dholth/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dholth/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dholth/subscriptions",
+          "organizations_url": "https://api.github.com/users/dholth/orgs",
+          "repos_url": "https://api.github.com/users/dholth/repos",
+          "events_url": "https://api.github.com/users/dholth/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dholth/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "cc4ac452397f4576b192bf8cf8c781a7f31701bf",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/commits/cc4ac452397f4576b192bf8cf8c781a7f31701bf",
+            "html_url": "https://github.com/charliermarsh/enscons/commit/cc4ac452397f4576b192bf8cf8c781a7f31701bf"
+          },
+          {
+            "sha": "2fbb91a400f98a50b5ccc4d7d80da11039f01cdc",
+            "url": "https://api.github.com/repos/charliermarsh/enscons/commits/2fbb91a400f98a50b5ccc4d7d80da11039f01cdc",
+            "html_url": "https://github.com/charliermarsh/enscons/commit/2fbb91a400f98a50b5ccc4d7d80da11039f01cdc"
+          }
+        ]
+      }
+    ]
+  }
+]
